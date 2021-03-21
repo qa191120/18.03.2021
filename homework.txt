@@ -1,0 +1,17 @@
+Homework:
+
+1. create an implementation of queue using String as its data value
+2. create an implementation of stack using String as its data value
+3. implement 1 + 2 with a generics type E
+4. create a new type of list- call it MyLimitedList (for Integer) , *etgar for type E 
+   you can only add items to this list 
+   MyLimitedList
+   # ArrayList<Integer> m_items (protected)
+   # readonly int m_max_items (protected)
+   + ctor ( int max_items )
+   + addItem (Integer item) ... or for the etgar addItem(E item)
+   + getItem (int index) : Integer ... or for the etgar getItem (int index ) : E
+   + removeFirstItem ( ) 
+   in the ctor gets the maximum number of items
+   when try to insert an item and exceed the maximum then remove the first item (you can call the removeFirstItem method if you want)
+   
